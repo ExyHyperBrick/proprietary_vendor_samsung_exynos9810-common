@@ -110,8 +110,6 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     gatekeeper.exynos9810 \
     power.exynos9810 \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
@@ -136,16 +134,6 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.VP9.Encoder \
-    libOMX.Exynos.WMV.Decoder \
     sensors.bio \
     sensors.grip \
     libSamsungPostProcessConvertor \
@@ -162,7 +150,6 @@ PRODUCT_PACKAGES += \
     libhfd \
     libprofileparamstorage \
     libsecaudiocoreutils \
-    libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
