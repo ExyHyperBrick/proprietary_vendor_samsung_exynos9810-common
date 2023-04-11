@@ -109,38 +109,21 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
     gatekeeper.exynos9810 \
-    gralloc.exynos9810 \
-    hwcomposer.exynos9810 \
     memtrack.exynos9810 \
     power.exynos9810 \
-    libExynosHWCService \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
-    libGrallocWrapper \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
     libOpenCv.camera.samsung \
     libRSDriverArm \
     libSEF.quram \
-    libacryl \
-    libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
-    libcsc \
-    libdrmresource \
     libegis_fp_normal_sensor_test \
-    libexynosdisplay \
-    libexynosgraphicbuffer \
-    libexynosgscaler \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
-    libgiantmscl \
-    libhwjpeg \
-    libion_exynos \
     libiva_android_hal \
     libmalicore \
     libqfp_sensortest \
@@ -149,7 +132,6 @@ PRODUCT_PACKAGES += \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
     libsensorlistener \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
@@ -194,7 +176,6 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libflicker \
     libkeymaster2_mdfpp \
-    libmpp \
     libril-samsung \
     libsec-ril-dsds \
     libsec-ril \
