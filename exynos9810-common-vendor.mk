@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
     gatekeeper.exynos9810 \
-    memtrack.exynos9810 \
     power.exynos9810 \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
