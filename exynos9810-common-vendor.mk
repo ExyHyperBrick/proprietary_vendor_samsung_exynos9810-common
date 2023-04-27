@@ -128,10 +128,8 @@ PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
     libcsc \
-    libdrmresource \
     libegis_fp_normal_sensor_test \
     libexynosdisplay \
-    libexynosgraphicbuffer \
     libexynosgscaler \
     libexynosscaler \
     libexynosutils \
