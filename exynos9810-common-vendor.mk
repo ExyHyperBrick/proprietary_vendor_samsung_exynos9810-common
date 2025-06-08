@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/camera3/score_mc_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera3/score_mc_pmw.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/exynos9810-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_iva.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_iva.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_neon.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_neon.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_score.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_score.dat \
@@ -172,14 +173,16 @@ PRODUCT_PACKAGES += \
     libaudio-ril \
     libaudio_soundtrigger \
     libaudiodebugfs \
+    libaudioroute.exynos9810 \
     libcnn \
     libcodecdspdump \
     libdatamod \
     libhfd \
+    liboemcrypto \
     libprofileparamstorage \
     libsecaudiocoreutils \
+    libsecril-client-samsung \
     libstagefright_omx_vendor \
-    libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
@@ -198,8 +201,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     snap_gpu_kernel_64 \
     cbd \
