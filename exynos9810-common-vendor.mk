@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.exynos9810 \
     memtrack.exynos9810 \
     power.exynos9810 \
-    vulkan.mali \
     libExynosHWCService \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
@@ -127,10 +126,8 @@ PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
     libcsc \
-    libdrmresource \
     libegis_fp_normal_sensor_test \
     libexynosdisplay \
-    libexynosgraphicbuffer \
     libexynosgscaler \
     libexynosscaler \
     libexynosutils \
@@ -190,7 +187,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     libengmode_client \
     libflicker \
-    libgpudataproducer \
     libkeymaster2_mdfpp \
     libmpp \
     libril-samsung \
@@ -201,7 +197,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
-    snap_gpu_kernel_64 \
     cbd \
     android.hardware.drm@1.2-service.widevine \
     gpsd \
