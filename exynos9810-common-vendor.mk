@@ -107,35 +107,18 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
     gatekeeper.exynos9810 \
-    gralloc.exynos9810 \
-    hwcomposer.exynos9810 \
-    memtrack.exynos9810 \
     power.exynos9810 \
-    libExynosHWCService \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
-    libGrallocWrapper \
+    vulkan.mali \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
-    libacryl \
-    libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
-    libcsc \
     libegis_fp_normal_sensor_test \
-    libexynosdisplay \
-    libexynosgscaler \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
-    libgiantmscl \
-    libhwjpeg \
-    libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
     libsecaudioinfo \
@@ -143,22 +126,11 @@ PRODUCT_PACKAGES += \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
     libsensorlistener \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.VP9.Encoder \
-    libOMX.Exynos.WMV.Decoder \
     sensors.bio \
     sensors.grip \
     libSamsungPostProcessConvertor \
@@ -178,7 +150,6 @@ PRODUCT_PACKAGES += \
     libprofileparamstorage \
     libsecaudiocoreutils \
     libsecril-client-samsung \
-    libstagefright_omx_vendor \
     libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
@@ -188,7 +159,6 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libflicker \
     libkeymaster2_mdfpp \
-    libmpp \
     libril-samsung \
     libsec-ril-dsds \
     libsec-ril \
