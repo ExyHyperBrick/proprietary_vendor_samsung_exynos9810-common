@@ -126,11 +126,8 @@ PRODUCT_PACKAGES += \
     libvxu \
     sensors.bio \
     sensors.grip \
-    libaboxpcmdump \
     libaudio_soundtrigger \
-    libaudiodebugfs \
     libcnn \
-    libcodecdspdump \
     libdatamod \
     libhfd \
     liboemcrypto \
