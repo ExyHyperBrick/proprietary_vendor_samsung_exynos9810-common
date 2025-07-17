@@ -37,10 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
+    vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.sem.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sem.rilchip.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
@@ -114,7 +114,6 @@ PRODUCT_PACKAGES += \
     libgf_in_system_lib \
     libiva_android_hal \
     libqfp_sensortest \
-    libsec_semRil \
     libsecnativefeature \
     libsecril-client \
     libsemnativecarrierfeature \
@@ -137,19 +136,17 @@ PRODUCT_PACKAGES += \
     gps.default \
     keystore.mdfpp \
     vendor.samsung.hardware.gnss@2.0-impl \
-    libSemDataProps \
-    libSemTelephonyProps \
     libbt-vendor \
     libengmode_client \
     libflicker \
     libfloatingfeature \
     libkeymaster2_mdfpp \
-    libril_sem \
+    libril \
+    libsec-ril-dsds \
     libsec-ril \
     libskeymaster3device \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     cbd \
