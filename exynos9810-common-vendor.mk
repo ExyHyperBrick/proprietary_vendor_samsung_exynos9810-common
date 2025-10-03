@@ -116,12 +116,10 @@ PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
-    libfloatingfeature \
     libgf_in_system_lib \
     libiva_android_hal \
     libqfp_sensortest \
     libsec_semRil \
-    libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
@@ -133,15 +131,9 @@ PRODUCT_PACKAGES += \
     libvxu \
     sensors.bio \
     sensors.grip \
-    libSamsungPostProcessConvertor \
-    lib_SoundAlive_SRC384_ver320 \
-    lib_soundaliveresampler \
     libaboxpcmdump \
-    libalsautils_sec \
-    libaudio-ril \
     libaudio_soundtrigger \
     libaudiodebugfs \
-    libaudioroute.exynos9810 \
     libcnn \
     libcodecdspdump \
     libdatamod \
@@ -150,7 +142,6 @@ PRODUCT_PACKAGES += \
     libprofileparamstorage \
     libsecaudiocoreutils \
     libsecril-client-samsung \
-    libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
@@ -160,6 +151,7 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     libengmode_client \
     libflicker \
+    libfloatingfeature \
     libkeymaster2_mdfpp \
     libril_sem \
     libsec-ril \
