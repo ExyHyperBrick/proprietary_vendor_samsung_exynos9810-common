@@ -1559,7 +1559,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsec-ril-dsds-impl",
+    name: "libsec-ril-dsds",
     owner: "samsung",
     strip: {
         none: true,
@@ -1567,7 +1567,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libsec-ril-dsds-impl.so",
+                "proprietary/vendor/lib64/libsec-ril-dsds.so",
             ],
             shared_libs: [
                 "liblog",
@@ -1604,7 +1604,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsec-ril-impl",
+    name: "libsec-ril",
     owner: "samsung",
     strip: {
         none: true,
@@ -1612,7 +1612,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libsec-ril-impl.so",
+                "proprietary/vendor/lib64/libsec-ril.so",
             ],
             shared_libs: [
                 "liblog",
