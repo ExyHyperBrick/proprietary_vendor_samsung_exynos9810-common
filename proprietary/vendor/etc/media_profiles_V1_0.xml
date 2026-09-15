@@ -549,7 +549,7 @@
     </CamcorderProfiles>
 
     <!-- Front Wide Angle -->
-    <CamcorderProfiles cameraId="2">
+    <CamcorderProfiles cameraId="50">
 
     <EncoderProfile quality="low" fileFormat="3gp" duration="30">
       <Video codec="h264"
