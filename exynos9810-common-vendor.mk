@@ -133,6 +133,7 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libprofileparamstorage \
     libsecaudiocoreutils \
+    android.frameworks.schedulerservice@1.0 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
