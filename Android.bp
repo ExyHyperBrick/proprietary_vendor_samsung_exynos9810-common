@@ -2135,3 +2135,101 @@ install_symlink {
     installed_location: "lib64/libOpenCL.so.1.1",
     symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
 }
+
+filegroup {
+    name: "exynos9810_stock_camera_opencv_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libOpenCv.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_sef_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libSEF.quram.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_core2nativeutil_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libcore2nativeutil.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_exif_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libexifa.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_imagecodec_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libimagecodec.quram.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_jpeg_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libjpega.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_jpegsqueezer_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libjpegsq.media.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_padm_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libpadm.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_savscommon_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libsavscmn.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_core_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libsccore.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_secimaging_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libsecimaging.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_jpeginterface_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libsecjpeginterface.camera.samsung.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_stock_camera_sxqk_blob",
+    srcs: [
+        "proprietary/system_ext/lib64/libsxqk.so",
+    ],
+}
+
+filegroup {
+    name: "exynos9810_samsung_camera_apk",
+    srcs: [
+        "proprietary/system_ext/priv-app/SamsungCameraExynos9810/SamsungCameraExynos9810.apk",
+    ],
+}
